@@ -46,7 +46,7 @@ MIDDLEWARE = [
 ]
 
 # Configurações do WhiteNoise para servir arquivos estáticos
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:9000",
