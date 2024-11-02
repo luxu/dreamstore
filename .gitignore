@@ -7,8 +7,8 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
-.idea
+.venv/
+.idea/
 
 .env
 node_modules/
