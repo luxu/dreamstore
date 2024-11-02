@@ -23,6 +23,7 @@ THIRD_PARTY_APPS = [
     'rest_framework',
     'corsheaders',
     'drf_yasg',
+    'whitenoise',
 ]
 
 LOCAL_APPS = [
