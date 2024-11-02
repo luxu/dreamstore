@@ -14,4 +14,14 @@ cd <name-project>
 uv venv .venv
 ````
 
+## Access VM
+````bash
+cd <name-project>
+.venv/Scripts/activate
+````
 
+## Generate requirements.txt use uv
+````bash
+uv sync --no-dev
+uv pip freeze > requirements.txt
+````
