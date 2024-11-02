@@ -1,0 +1,18 @@
+[project]
+name = "dreamstore"
+version = "0.1.0"
+description = "Project Academic about DialogFlow"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.1.2",
+    "python-decouple>=3.8",
+    "django-extensions>=3.2.3",
+    "ipython>=8.29.0",
+    "dj-database-url>=2.3.0",
+    "django-cors-headers>=4.6.0",
+    "drf-yasg>=1.21.8",
+    "django-filter>=24.3",
+    "requests>=2.32.3",
+    "djangorestframework>=3.15.2",
+]
