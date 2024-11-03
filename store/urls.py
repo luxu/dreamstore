@@ -9,4 +9,6 @@ router.register(r"store", v.ProductViewSet)
 urlpatterns = [
     path("", include(router.urls), name="api"),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
+    path("webhook/", v.webhook, name="dialogflow"),
+    path('dialogflow_webhook/', v.dialogflow_webhook, name='dialogflow_webhook'),
 ]
