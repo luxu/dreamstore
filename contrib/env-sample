@@ -1,0 +1,13 @@
+DEBUG=True
+SECRET_KEY=Change for a secret here
+ALLOWED_HOSTS=localhost, 127.0.0.1
+SENTRY_DSN=
+NAME=
+HOST=
+USER=
+PASSWORD=
+API_KEY_CHAT_GPT=
+OPENAI_API_KEY=
+GROQ_API_KEY=
+ORG_ID=
+DATABASE_URL=postgres://postgres:postgres@localhost/postgres

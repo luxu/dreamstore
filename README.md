@@ -1,5 +1,9 @@
 # Repository of Dream Store
 
+# Repository link
+[https://github.com/luxu/dreamstore.git](https://github.com/luxu/dreamstore.git)
+
+
 ### Tools used in this repository:
 - uv: Python packaging in Rust [uv](https://docs.astral.sh/uv/#highlights)
 
