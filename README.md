@@ -1,31 +1,8 @@
 # Repository of Dream Store
 
-# Repository link
-[https://github.com/luxu/dreamstore.git](https://github.com/luxu/dreamstore.git)
-
-
-### Tools used in this repository:
-- uv: Python packaging in Rust [uv](https://docs.astral.sh/uv/#highlights)
-
-## To initialize a new project:
-````bash
-uv init --app <name-project>
-````
-
-## Create virtualenv
-````bash
-cd <name-project>
-uv venv .venv
-````
-
-## Access VM
-````bash
-cd <name-project>
-.venv/Scripts/activate
-````
-
-## Generate requirements.txt use uv
-````bash
-uv sync --no-dev
-uv pip freeze > requirements.txt
-````
+# Bot Operation Flow Using DialogFlow
+## - I develop the project locally by testing it within DialogFlow
+## - I upload the changes to my repository: https://github.com/luxu/dreamstore.git
+## - Vercel website `pulls` changes from github
+## - After deployment, I go to my website: https://www.luxu.com.br and test the bot.
+## - That´s all folks
